@@ -1,0 +1,92 @@
+body{
+  /* background-color: rgb(211, 211, 211); */
+  /* background-color: blue; */
+  /* height: 100vh; */
+  height: 100%; width: 100%;
+
+}
+.body{
+  /* background: linear-gradient(88deg, #000000, #7a7070); */
+  background: url('https://api.iconify.design/bx:bxl-react.svg?color=white') no-repeat center center / contain;
+  /* background: url('https://api.iconify.design/bx:bxl-react.svg') no-repeat center center / contain; */
+
+
+  background-color: black;
+  animation-name: card;
+    animation: card 10s ease infinite;
+    -webkit-animation: card 10s ease infinite;
+    -moz-animation: card 10s ease infinite;
+  height: 10%;
+  background-attachment: fixed;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  background: #dfdfdf; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #999999; 
+}
+
+@keyframes card{
+  0%{background-position:0% 28%}
+  50%{background-position:100% 73%}
+  100%{background-position:0% 28%}
+}
+@-webkit-keyframes card {
+  0%{background-position:0% 28%}
+  50%{background-position:100% 73%}
+  100%{background-position:0% 28%}
+}
+@-moz-keyframes card {
+  0%{background-position:0% 28%}
+  50%{background-position:100% 73%}
+  100%{background-position:0% 28%}
+}
+
+
+.app{
+  justify-content: space-between;
+}
+
+.app_sidebar{
+  margin-top: 15vh; 
+  margin-bottom: 9.8vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  /* height: 32rem; */
+  border-radius: 30px;
+  padding-bottom: 20px;
+}
+
+.app_main{
+  background-color: transparent;
+  overflow: auto;
+  height: 32rem;
+  margin-top: 15vh;
+  border-radius: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+.button{
+  justify-content: flex-end;
+  background-color: transparent;
+  display: flex;
+  /* margin-right: 30px; margin-top: 10px; */
+  /* background-color: tomato; */
+}
