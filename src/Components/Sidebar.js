@@ -5,6 +5,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import {motion} from 'framer-motion'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Pdf from '../Assets/Files/resume.pdf'
+import ProPic from "../Assets/Image/shiv.jpeg"
 
 function Sidebar(){
     
@@ -29,7 +30,7 @@ function Sidebar(){
                 duration : 0.3
             }}
             className="sidebar text-center">
-                <img src= "https://www.flaticon.com/svg/static/icons/svg/2922/2922510.svg" className="sidebar__avatar my-2"></img>
+                <img src={ProPic} className="sidebar__avatar my-2"></img>
                 <div className="sidebar__name">Shivansh<span > Singh</span></div>
                 <div className="sidebar__item">Web Developer</div>
                 <a href= {Pdf} className="link text-white download_resume my-2" target="_blank">

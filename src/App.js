@@ -9,6 +9,7 @@ import About from './Components/About'
 import Resume from './Components/Resume'
 import Projects from './Components/Projects'
 import Button from '@material-ui/core/Button';
+import Particle from './Components/Particle';
 
 function App() {
 
@@ -48,22 +49,24 @@ const darkButton = {
         <div className="button col-lg-12 " style = {darkMode? lightButton : darkButton}>
           <Button variant="contained" style = {darkMode? darkButton : lightButton} onClick={()=>setDarkMode(darkMode ? false:true)}>{darkMode? "Dark":"Light"} Theme</Button>
         </div>
-        <div className="body" style={darkMode ? lightStyle : darkStyle}>
-          <div className="container app">
-            <div className="row">
-              <div className="col-lg-3 col-11 mx-2 app_sidebar">
-                <Sidebar />
-              </div>
-              <div className="col-lg-8 col-11 mx-2 app_main scroll">
-                <Navbar className="d-flex"/>
-                <Route exact path="/"> <About /> </Route>
-                <Route exact path="/about"><About /></Route>
-                <Route exact path="/resume"> <Resume /> </Route>
-                <Route exact path="/projects"><Projects /> </Route>
-              </div>
+          <div>
+            <Particle />
+            <div className="container app">
+              <div className="row">
+                <div className="col-lg-3 col-11 mx-2 app_sidebar">
+                  <Sidebar />
+                </div>
+                <div className="col-lg-8 col-11 mx-2 app_main scroll">
+                  <Navbar className="d-flex"/>
+                  <Route exact path="/"> <About /> </Route>
+                  <Route exact path="/about"><About /></Route>
+                  <Route exact path="/resume"> <Resume /> </Route>
+                  <Route exact path="/projects"><Projects /> </Route>
+                </div>
             </div>
           </div>
         </div>
+
       </BrowserRouter>
     ]
   )
