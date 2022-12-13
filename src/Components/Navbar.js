@@ -37,7 +37,7 @@ const Navbar = () => {
             <div className="navbar__active">
                 {active}
             </div>
-            <div className="navdar__items row">
+            <div className="d-flex ">
                 {active !== 'About' ? 
                 <Link to="/">
                 <div className="navbar__item" onClick={() => setActive('About')}>About</div> 
@@ -50,6 +50,11 @@ const Navbar = () => {
                 {active !== 'Resume' ? 
                 <Link to='/resume'>
                     <div className="navbar__item" onClick={() => setActive('Resume')}>Resume</div>
+                </Link>
+                : null }
+                {active !== 'Education' ? 
+                <Link to='/education'>
+                    <div className="navbar__item" onClick={() => setActive('Education')}>Education</div>
                 </Link>
                 : null }
 

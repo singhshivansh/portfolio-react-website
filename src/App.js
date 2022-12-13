@@ -8,6 +8,7 @@ import { BrowserRouter, Route } from 'react-router-dom'
 import About from './Components/About'
 import Resume from './Components/Resume'
 import Projects from './Components/Projects'
+import Education from './Components/Education/Education';
 import Button from '@material-ui/core/Button';
 import Particle from './Components/Particle';
 
@@ -61,6 +62,7 @@ const darkButton = {
                   <Route exact path="/"> <About /> </Route>
                   <Route exact path="/about"><About /></Route>
                   <Route exact path="/resume"> <Resume /> </Route>
+                  <Route exact path="/education"> <Education /> </Route>
                   <Route exact path="/projects"><Projects /> </Route>
                 </div>
             </div>

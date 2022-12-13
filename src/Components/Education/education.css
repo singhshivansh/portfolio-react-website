@@ -1,0 +1,6 @@
+.education__li{
+    background: rgb(170,170,170);
+    background: linear-gradient(90deg, rgb(94, 93, 93) 0%, rgba(255,255,255,0) 100%);
+    border-radius: 15px;
+    padding-left: 15px;
+}

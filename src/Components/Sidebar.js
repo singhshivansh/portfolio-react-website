@@ -2,10 +2,11 @@ import React from "react"
 import "./sidebar.css"
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import LocationOn from '@material-ui/icons/LocationOn';
 import {motion} from 'framer-motion'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Pdf from '../Assets/Files/resume.pdf'
-import ProPic from "../Assets/Image/shiv.jpeg"
+import ProPic from "../Assets/Image/shiv.jpg"
 
 function Sidebar(){
     
@@ -44,7 +45,7 @@ function Sidebar(){
                     <a href="https://github.com/singhsivansh12" alt="github" className="sidebar__github"><GitHubIcon /> GitHub</a>
                 </div>
                 <div className="my-2">
-                   <img src="https://www.flaticon.com/svg/static/icons/svg/561/561237.svg" alt="location" className="sidebar__location" />
+                   <LocationOn />
                    Pune, India 
                 </div>
                 <div className="text-bold my-2">

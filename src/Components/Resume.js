@@ -74,15 +74,7 @@ function Resume() {
         initial = 'hidden'
         animate = 'visible'
         >
-            <div className="education__block col-lg-6 my-3" >
-                <div className="row">
-                    <img src ="https://api.iconify.design/maki:college-11.svg" className="img-thumbnail"></img>
-                    <h3 className="education__title text-bold">Education</h3>
-                </div>
-                <h5 className="text-bold">Computer Science Engineering</h5>
-                <h6>MIT-WPU, Pune (2018-22)</h6>
-                <p>Currently, I am a third year Engineering student</p>
-            </div>
+            
             <div className="row">
                 <div className="col-lg-6 my-3" >
                     <h3 className="education__title text-bold">Language</h3>

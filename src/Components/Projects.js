@@ -67,7 +67,7 @@ const Projects = () =>{
         //         console.log(data_project[i])
         //     }
         // }
-        console.log(new_array)
+        // console.log(new_array)
         setProjects(new_array)
     }
 
