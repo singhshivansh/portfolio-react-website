@@ -52,7 +52,7 @@ function Sidebar(){
                     singhshivansh12@gmail.com<br></br>
                     +91-9359042346
                 </div>
-                <div className="email__me text-center"><a target="_blank" className="email_me" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTMXTmGSSMwSWNzvhxSqZTfLPZCVVvbPQphtvZstndBwhjTwQbjxmqNdhJLWhqpVCpnmSq">Email Me</a></div>
+                <div className="email__me text-center"><a target="_blank" className="email_me text-decoration-none" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTMXTmGSSMwSWNzvhxSqZTfLPZCVVvbPQphtvZstndBwhjTwQbjxmqNdhJLWhqpVCpnmSq">Email Me</a></div>
                 {/* <div> <a><GitHubIcon /></a> </div> */}
             </motion.div>
         ]

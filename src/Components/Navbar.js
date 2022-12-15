@@ -34,30 +34,33 @@ const Navbar = () => {
         animate = 'visible'
         className=""
         >
-            <div className="navbar__active">
-                {active}
-            </div>
-            <div className="d-flex ">
-                {active !== 'About' ? 
-                <Link to="/">
-                <div className="navbar__item" onClick={() => setActive('About')}>About</div> 
-                </Link>: null}
-                {active !== 'Projects' ? 
-                <Link to="/projects">
-                    <div className="navbar__item" onClick={() => setActive('Projects')}>Projects</div>
-                </Link>
-                : null }
-                {active !== 'Resume' ? 
-                <Link to='/resume'>
-                    <div className="navbar__item" onClick={() => setActive('Resume')}>Resume</div>
-                </Link>
-                : null }
-                {active !== 'Education' ? 
-                <Link to='/education'>
-                    <div className="navbar__item" onClick={() => setActive('Education')}>Education</div>
-                </Link>
-                : null }
-
+            <div className='d-flex justify-content-between'>
+                <div className="navbar__active">
+                    {active}
+                </div>
+                <div className='d-flex flex-column justify-content-center'>
+                    <div className="d-flex">
+                        {active !== 'About' ? 
+                        <Link to="/" className='text-decoration-none'>
+                        <div className="navbar__item" onClick={() => setActive('About')}>About</div> 
+                        </Link>: null}
+                        {active !== 'Projects' ? 
+                        <Link to="/projects" className='text-decoration-none'>
+                            <div className="navbar__item" onClick={() => setActive('Projects')}>Projects</div>
+                        </Link>
+                        : null }
+                        {active !== 'Resume' ? 
+                        <Link to='/resume' className='text-decoration-none'>
+                            <div className="navbar__item" onClick={() => setActive('Resume')}>Resume</div>
+                        </Link>
+                        : null }
+                        {active !== 'Education' ? 
+                        <Link to='/education' className='text-decoration-none'>
+                            <div className="navbar__item" onClick={() => setActive('Education')}>Education</div>
+                        </Link>
+                        : null }
+                    </div>
+                </div>
             </div>
         </motion.div>
     )

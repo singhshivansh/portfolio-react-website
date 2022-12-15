@@ -122,8 +122,12 @@
 .email_me{
     color: white;
 }
+.email_me:hover{
+    color: white;
+}
 .email__me:hover{
     cursor: pointer;
+    color: white;
     transform: scale(1.2);
     background: rgb(8,7,7);
     background: linear-gradient(90deg, rgba(8,7,7,1) 0%, rgba(89,80,82,1) 0%, rgba(116,105,107,1) 0%, rgba(0,0,0,1) 0%, rgba(107,97,100,1) 0%, rgba(226,205,209,1) 0%, rgba(226,205,209,1) 0%, rgba(5,5,5,1) 0%, rgba(86,78,80,1) 100%, rgba(86,78,80,1) 100%, rgba(52,47,48,1) 100%); 
