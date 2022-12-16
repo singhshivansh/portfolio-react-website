@@ -14,10 +14,10 @@ const Education = () => {
                 <h5 className="text-bold">Computer Science Engineering</h5>
                 <ul>
                   <li>
-                    <h6>MIT World Peace University, Pune (2017-19)</h6>
+                    <h6>MIT World Peace University, Pune (2018-22)</h6>
                   </li>
                   <li>
-                    <h6>CGPA: 9.13</h6>
+                    <h6>CGPA: <b>9.13</b></h6>
                   </li>
 
                 </ul>
@@ -29,7 +29,7 @@ const Education = () => {
                     <h6>Kendriya Vidyalaya, Mughalsarai (2016-17)</h6>
                   </li>
                   <li>
-                    <h6>Percentage: 87.8%</h6>
+                    <h6>Percentage: <b>87.8%</b></h6>
                   </li>
                 </ul>
               </li>
@@ -40,7 +40,7 @@ const Education = () => {
                     <h6>Kendriya Vidyalaya, Mughalsarai (2014-15)</h6>
                   </li>
                   <li>
-                    <h6>CGPA: 9.8</h6>
+                    <h6>CGPA: <b>9.8</b></h6>
                   </li>
                 </ul>
               </li>
