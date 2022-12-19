@@ -1,0 +1,9 @@
+.card{
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.business__icon{
+    font-size: 20px;
+    padding-left: 20px;
+}

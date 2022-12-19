@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^7.2.1",
     "framer-motion": "^2.7.7",
     "i": "^0.3.6",
+    "jquery": "^3.6.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-particles": "^2.6.0",

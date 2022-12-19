@@ -37,12 +37,12 @@ function Sidebar(){
                 <a href= {Pdf} className="link text-white download_resume my-2" target="_blank">
                     <img src='https://api.iconify.design/si-glyph:paper-clip.svg?color=white'/> Download Resume
                 </a>
+                <div className="sidebar__github col-lg-12 col-md-5">
+                    <a href="https://github.com/singhsivansh12" alt="github" className="sidebar__github"><GitHubIcon /> GitHub</a>
+                </div>
                 <div className="sidebar__social-icons my-2  ">
                     <a href="https://www.facebook.com/shivansh.kumar.5689" target="_blank" alt="facebook" className="sidebar__facebook"><FacebookIcon /> Facebook</a>
                     <a href="https://www.instagram.com/_shivanshh__/?hl=en" target ="_blank" alt="instagram" className="sidebar__instagram"><InstagramIcon /> Instagram</a>
-                </div>
-                <div className="sidebar__github col-lg-12 col-md-5">
-                    <a href="https://github.com/singhsivansh12" alt="github" className="sidebar__github"><GitHubIcon /> GitHub</a>
                 </div>
                 <div className="my-2">
                    <LocationOn />

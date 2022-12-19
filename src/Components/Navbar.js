@@ -14,6 +14,10 @@ const Navbar = () => {
             setActive('Projects')
         if(currentURL.endsWith('/resume'))
             setActive('Resume')
+        if(currentURL.endsWith('/education'))
+            setActive('Education')
+        if(currentURL.endsWith('/experience'))
+            setActive('Experience')
     }, [active])
 
     const navbar_variant={
@@ -59,6 +63,13 @@ const Navbar = () => {
                             <div className="navbar__item" onClick={() => setActive('Education')}>Education</div>
                         </Link>
                         : null }
+                        {
+                            active !== 'Experience' ?
+                            <Link to='/experience' className='text-decoration-none'>
+                                <div className="navbar__item" onClick={() => setActive('Experience')}>Experience</div>
+                            </Link>
+                            : null
+                        }
                     </div>
                 </div>
             </div>

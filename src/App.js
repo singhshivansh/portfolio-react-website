@@ -9,6 +9,7 @@ import About from './Components/About'
 import Resume from './Components/Resume'
 import Projects from './Components/Projects'
 import Education from './Components/Education/Education';
+import Experience from './Components/Experience/Experience';
 import Button from '@material-ui/core/Button';
 import Particle from './Components/Particle';
 
@@ -64,6 +65,7 @@ const darkButton = {
                   <Route exact path="/resume"> <Resume /> </Route>
                   <Route exact path="/education"> <Education /> </Route>
                   <Route exact path="/projects"><Projects /> </Route>
+                  <Route exact path="/experience"><Experience /> </Route>
                 </div>
             </div>
           </div>
