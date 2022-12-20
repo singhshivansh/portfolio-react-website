@@ -29,10 +29,10 @@ const Card_2 = ({ value: { image, name, githuburl, url } }) => {
                     <img src={image} alt="Avatar" className="image card_2_image" />
                     <div className="middle">
                         <div className="icon">
-                            <h5 className="d-block mx-2">{name}</h5><br></br>
-                            <div className="row">
-                                <a href={githuburl} target="_blank" className="iconn"><GitHubIcon /></a>
-                                <a href={url} target="_blank" className="iconn"><LanguageIcon /></a>
+                            <h5 className="text-center">{name}</h5>
+                            <div className="d-flex justify-content-center">
+                                {githuburl ? <a href={githuburl} target="_blank" className="iconn pr-3"><GitHubIcon /></a> : null}
+                                {url ? <a href={url} target="_blank" className="iconn"><LanguageIcon /></a> : null}
                             </div>
                         </div>
                     </div>

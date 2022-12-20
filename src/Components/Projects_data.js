@@ -42,6 +42,10 @@ const data_project = [
         github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
         category: ['django', 'bootstrap']
     },
+    {
+        name : 'SuperHero World',
+        image: '',
+    }
 ]
 
 export default data_project;
