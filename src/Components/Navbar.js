@@ -53,11 +53,11 @@ const Navbar = () => {
                             <div className="navbar__item" onClick={() => setActive('Projects')}>Projects</div>
                         </Link>
                         : null }
-                        {active !== 'Resume' ? 
+                        {/* {active !== 'Resume' ? 
                         <Link to='/resume' className='text-decoration-none'>
                             <div className="navbar__item" onClick={() => setActive('Resume')}>Resume</div>
                         </Link>
-                        : null }
+                        : null } */}
                         {active !== 'Education' ? 
                         <Link to='/education' className='text-decoration-none'>
                             <div className="navbar__item" onClick={() => setActive('Education')}>Education</div>
