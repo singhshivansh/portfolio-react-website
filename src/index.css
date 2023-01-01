@@ -87,6 +87,16 @@ body{
   overflow-x: hidden;
 }
 
+.loader{
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  place-content: center;
+  display: grid;
+}
+
 .button{
   justify-content: flex-end;
   background-color: transparent;

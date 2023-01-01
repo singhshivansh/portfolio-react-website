@@ -11,7 +11,8 @@ import superhero_api from '../Assets/Image/ProjectImage/super_hero_api_image.jpe
 import fc from '../Assets/Image/ProjectImage/fc_image.jpeg';
 import weather_app from '../Assets/Image/ProjectImage/weather_app_image.jpeg';
 import tooly from '../Assets/Image/ProjectImage/tooly_image.jpeg';
-import {motion} from 'framer-motion' 
+import {motion} from 'framer-motion';
+import { LineWave } from 'react-loader-spinner'
 
 const data_project = [
     {
@@ -88,6 +89,7 @@ const data_project = [
 
 const Projects = () =>{
     const [projects, setProjects] = useState(data_project);
+    const [loader, setloader] = useState(true);
 
     const navbar_variant={
         hidden:{
@@ -117,11 +119,17 @@ const Projects = () =>{
     }
 
     return(
+        
         <motion.div
         variants = {navbar_variant}
         initial = 'hidden'
         animate = 'visible'
-        className="projects">
+        className="projects"
+        onLoad={() => setloader(false)}
+        >
+            {
+                loader ? <LineWave color="#00BFFF" height={100} width={100} /> : null
+            }
             <div className="navbar col-lg-8 col-md-10 project__navbar">
                 <div id='all' className="project_navbar_items mx-2 active_project" onClick= {() => setProjects(data_project)} >All</div>
                 <div id='react' className="project_navbar_items mx-2" onClick ={() => handleFilterCategory('react')}>React</div>
