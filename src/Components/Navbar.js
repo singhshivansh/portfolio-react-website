@@ -38,8 +38,8 @@ const Navbar = () => {
         animate = 'visible'
         className=""
         >
-            <div className='d-flex justify-content-between'>
-                <div className="navbar__active">
+            <div className='d-lg-flex d-md-block justify-content-between'>
+                <div className="navbar__active ">
                     {active}
                 </div>
                 <div className='d-flex flex-column justify-content-center'>
