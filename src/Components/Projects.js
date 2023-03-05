@@ -8,6 +8,7 @@ import face from "../Assets/Image/face.png"
 import cardio from "../Assets/Image/cardiovascular.png";
 import superhero from "../Assets/Image/ProjectImage/super_hero_image.jpeg";
 import superhero_api from '../Assets/Image/ProjectImage/super_hero_api_image.jpeg';
+import yc from '../Assets/Image/ProjectImage/youtube_clone.png';
 import fc from '../Assets/Image/ProjectImage/fc_image.jpeg';
 import weather_app from '../Assets/Image/ProjectImage/weather_app_image.jpeg';
 import tooly from '../Assets/Image/ProjectImage/tooly_image.jpeg';
@@ -22,6 +23,13 @@ const data_project = [
         url: 'https://fc.unisight.in/',
         category: ['react', 'django']
 
+    },
+    {
+        name: 'Youtube Clone',
+        image: yc,
+        githuburl : 'https://github.com/singhshivansh/youtube-clone',
+        url : 'https://youtube-clone-shivansh.vercel.app/',
+        category: ['react']
     },
     {
         name : 'Tooly',
