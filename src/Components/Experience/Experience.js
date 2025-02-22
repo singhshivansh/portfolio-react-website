@@ -6,16 +6,20 @@ const Experience = () => {
     const work_experience = [
         {
             key : 1,
-            title: 'Associate Software Engineer',
+            title: 'Software Engineer',
             company: 'Icertis Inc.',
             location: 'Pune',
             start: 'July, 2022',
             end: null,
             achievements: [
-                'develop new features and integrated them through APIs in ICI',
-                'fix bugs in existing APIs',
-                'developed new APIs for ICI',
-                'developed a web portal for company\'s internal use from scratch'
+                'Engaging in the full software development lifecycle, from requirements gathering to deployment, ensuring that all phases are executed with precision and adherence to best practices.',
+                'Collaborating with cross-functional teams to design and implement scalable web applications that meet diverse client needs, utilizing a variety of technologies including ASP.NET Core & JavaScript.',
+                'Administrating the management of source control and issue tracking through Team Foundation Server, ensuring seamless collaboration and project transparency.',
+                'Conducting thorough analysis of system performance using Kibana and Application Insights, providing actionable insights to enhance application efficiency and user experience.',
+                'eveloping and maintaining complex database schemas and stored procedures in MySQL, ensuring data integrity and optimal performance.',
+                'Implementing client-side and server-side scripting solutions using C# & JavaScript, tailored to meet specific customization requirements for various projects.',
+                'Leading the development of an e-commerce platform, focusing on the integration of a secure payment gateway & the implementation of CRUD operations to streamline user transactions.',
+                'Mentoring junior developers, fostering a culture of continuous learning and improvement within the team.'
             ]
         },
         {

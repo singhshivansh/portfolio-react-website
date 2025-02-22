@@ -5,14 +5,14 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import LocationOn from '@material-ui/icons/LocationOn';
 import {motion} from 'framer-motion'
 import GitHubIcon from '@material-ui/icons/GitHub';
-import Pdf from '../Assets/Files/resume.pdf'
+import Pdf from '../Assets/Files/Shivansh-Singh.pdf'
 import ProPic from "../Assets/Image/shiv.jpg"
 
 function Sidebar(){
     
     const navbar_variant={
         hidden:{
-            x: '-30vh',
+            x: '-20vh',
             opacity: 0
         },
         visible:{

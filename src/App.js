@@ -64,7 +64,7 @@ const loaderFn = () => {
             <Particle />
             <div className="container app">
               <div className="row">
-                <div className="col-lg-3 col-11 mx-2 app_sidebar">
+                <div className="col-lg-3 col-11 mx-1 app_sidebar">
                   <Sidebar />
                 </div>
                 <div className="col-lg-8 col-11 mx-2 app_main scroll">
